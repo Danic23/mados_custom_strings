@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Reiniciar</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -67,4 +68,30 @@
     <string name="accessibility_screenshot">Captura</string>
 
     <string name="app_killed_message">Aplicación Cerrada</string>
+     
+     
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Cargando (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Cargado</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% Restante</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Sin servicio</string>
+    <string name="pie_phone_status_airplane_mode">Modo avión activado</string>
+    <string name="pie_phone_status_emergency_only">Solo llamadas de emergencia</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+    <string name="quick_mad_extras_toast">¿Crees que realmente serviría de algo pulsar aquí? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">Sesión de ventana múltiple ya está activa. \ NToca una aplicación si desea acoplarla ahora.</string>
+    <string name="recents_multiwin_nolastapp">Has eliminado las aplicaciónes recientes, por favor, elige una del launcher o del cajón.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC Apagado.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC Encendido.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC Desactivado.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC Activado.</string>
 </resources>
