@@ -181,7 +181,8 @@
     <string name="sensor_calibration_note">Nota: El teléfono debe permanecer inmóvil sobre un plano horizontal durante la calibración.</string>
     <string name="sensor_calibration_current_data_hint">Datos actuales del sensor: </string>
     <string name="sensor_calibration_sensor_data_hint">Datos de calibración del sensor: </string>
-
+	<string name="sensor_calibration_success">Calibración Completada</string>
+	
     <string name="gyroscope_axis_switch">Invertir eje vertical (arriba/abajo)</string>
 
     <!-- BandMode  Start -->
@@ -302,9 +303,22 @@
 
     <!-- > Substratum /layers4.0 -->
     <string name="substratum_title">Substratum</string>
+	<!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">superposiciones Substratum </string>
+    <string name="menu_show_substratum">Mostrar superposiciones</string>
+    <string name="menu_hide_substratum">Ocultar superposiciones</string>
+    
+	<!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Icono Substratum</string>
+    <string name="menu_show_substratum_icons">Mostrar Icono</string>
+    <string name="menu_hide_substratum_icons">Ocultar Icono</string>
 
-    <string name="sim_color_bar_title">Colorear la barra de señal</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Forzar permitir cada aplicación</string>
+    <string name="force_authorize_substratum_packages_summary">Permitir aplicaciones de fuentes desconocidas</string>
 
+    <string name="sim_color_bar_title">Colorear Barra de señal</string>
+	
     <!-- Doze pulse (ambient display) options -->
     <string name="doze_list_mode_title">Modo Doze</string>
     <string name="doze_list_mode_summary">Opción para configurar el Modo Doze</string>
@@ -649,4 +663,8 @@
     <string name="pa_pie_button_color_title">Color Botónes</string>
     <string name="pa_pie_always_right_title">Siempre a la derecha</string>
     <string name="pa_pie_always_right_summary">Aparecerá siempre a la derecha con el móvil en horizontal</string>
+	
+	<!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente tan pronto como se haya introducido el PIN correcto (no se requiere presionar OK) \ nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
 </resources>
